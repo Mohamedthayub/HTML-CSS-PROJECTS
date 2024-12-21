@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: "DM Sans", serif;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: hsl(221, 100%, 96%);
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:hsl(0, 0%, 100%);
+    height: 335px;
+    border-radius: 20px;
+
+}
+.first_container{
+    background-color:hsla(256, 72%, 46%,1);
+    width: 225px;
+    padding: 20px;
+    border-radius: 20px;
+ 
+    
+}
+.first_container .head {
+    font-size: 20px;
+    text-align: center;
+    color: hsl(221, 100%, 96%);
+}
+.first_container .round{
+    background-color: hsla(241, 72%, 46%, 0);
+    margin-top: 20px;
+    border-radius: 100%;
+}
+.round h1{
+    color: white;
+}
+.main .second_container{
+    padding: 20px;
+    width: 225px;
+}
+.first_container .main_round{
+    display: flex;
+    justify-content: center;
+
+}
+
+.first_container .text{
+    font-size: 16px;
+}
+.first_container .round p {
+    color: hsl(221, 100%, 96%);
+}
+.first_container h2{
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+}
+.first_container p{
+    text-align: center;
+    color: hsl(221, 100%, 96%);
+    margin-top: 20px;
+
+}
+.reaction{
+    display: flex;
+    justify-content: space-between;
+    color: hsl(1, 100%, 67%) ;
+    background-color: hsl(0, 21%, 82%);
+    padding: 10px;
+    margin-top: 20px;
+    
+    
+}
+.reaction .reaction_small{
+    display: flex;
+    justify-content: start;
+}
+.reaction .reaction_small img{
+    margin-right: 8px;
+}
+.memory{
+    display: flex;
+    justify-content: space-between;
+    color: hsl(39,100%,56%);
+    padding: 10px;
+    margin-top: 20px;    
+}
+.memory .memory_small{
+    display: flex;
+    justify-content: start;
+    
+}
+.memory .memory_small img{
+    margin-right: 8px;
+}
+.verbal{
+    display: flex;
+    justify-content: space-between;
+    color: hsl(166, 100%, 37%);
+    padding: 10px;
+    margin-top: 20px;
+}
+.verbal_small{
+    display: flex;
+    justify-content: start;
+}
+.verbal .verbal_small img{
+    margin-right: 8px;
+}
+.visual{
+    display: flex;
+    justify-content: space-between;
+    color: hsl(234, 85%, 45%);
+    padding: 10px;
+    margin-top: 20px;
+}
+.visual_small{
+    display: flex;
+    justify-content: start;
+}
+.visual .visual_small img{
+    margin-right: 8px;
+}
