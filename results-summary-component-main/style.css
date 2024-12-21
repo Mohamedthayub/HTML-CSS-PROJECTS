@@ -73,7 +73,6 @@ body{
     display: flex;
     justify-content: space-between;
     color: hsl(1, 100%, 67%) ;
-    background-color: hsl(0, 21%, 82%);
     padding: 10px;
     margin-top: 20px;
     
